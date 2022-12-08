@@ -1,1 +1,10 @@
+.banner {
+  background-color: rgb(255, 219, 161);
+  padding: 40px;
+  margin-top: 0px;
+  text-align: center;
+}
 
+body {
+  background-color: rgb(255, 245, 184);
+}
