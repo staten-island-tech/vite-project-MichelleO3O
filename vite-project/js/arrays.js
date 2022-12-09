@@ -43,7 +43,7 @@ const food = [
 
   {
     name: "Pudding",
-    price: 5,
+    price: 3,
     vegetarian: true,
     img: "https://i.pinimg.com/originals/92/87/08/928708c94c996d37944394d2c5c76da3.png",
   },
@@ -64,7 +64,7 @@ const food = [
 
   {
     name: "Karage",
-    price: 10,
+    price: 7,
     vegetarian: false,
     img: "https://pbs.twimg.com/media/DLYMbB_W4AEqt1E.jpg",
   },

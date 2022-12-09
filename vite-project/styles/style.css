@@ -1,10 +1,17 @@
 .banner {
-  background-color: rgb(255, 219, 161);
   padding: 40px;
   margin-top: 0px;
   text-align: center;
 }
 
 body {
-  background-color: rgb(255, 245, 184);
+  background-color: rgb(247, 247, 178);
+}
+
+.card {
+  background-color: rgb(255, 210, 128);
+  margin-top: 15px;
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
 }
