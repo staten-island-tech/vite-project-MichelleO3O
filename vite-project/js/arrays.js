@@ -68,4 +68,27 @@ const food = [
     vegetarian: false,
     img: "https://pbs.twimg.com/media/DLYMbB_W4AEqt1E.jpg",
   },
+
+  {
+    name: "Dango",
+    price: 5,
+    vegetarian: true,
+    img: "http://pm1.narvii.com/5874/3e86a4dda9e98225d6765a17504285918912603f_00.jpg",
+  },
+
+  {
+    name: "Okonomyaki",
+    price: 10,
+    vegetarian: false,
+    img: "http://img1.ak.crunchyroll.com/i/spire4/0f1ca2565aa2b5bccecf3497e58086371475628902_full.png",
+  },
+
+  {
+    name: "Yakisoba",
+    price: 12,
+    vegetarian: true,
+    img: "https://64.media.tumblr.com/82c31855f8d0811a929c95dd8df5e7b5/tumblr_n2um3zhIy31t2rr2bo1_1280.png",
+  },
+
+  {},
 ];
