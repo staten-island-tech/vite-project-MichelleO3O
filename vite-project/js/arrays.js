@@ -89,6 +89,6 @@ const food = [
     vegetarian: true,
     img: "https://64.media.tumblr.com/82c31855f8d0811a929c95dd8df5e7b5/tumblr_n2um3zhIy31t2rr2bo1_1280.png",
   },
-
-  {},
 ];
+
+export default food;

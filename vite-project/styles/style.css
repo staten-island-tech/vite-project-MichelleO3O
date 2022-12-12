@@ -12,6 +12,7 @@ body {
   background-color: rgb(255, 210, 128);
   margin-top: 15px;
   width: 20%;
+  height: 20vw;
   display: flex;
   flex-wrap: wrap;
 }
