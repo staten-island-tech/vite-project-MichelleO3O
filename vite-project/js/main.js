@@ -6,7 +6,7 @@ const DOMSelectors = {
 };
 
 food.forEach((element) => {
-  console.log(element);
+  cards.insertAdjacentHTML;
 });
 
 //inside .forEarch do cards.insertAdjacentHTML to create every card

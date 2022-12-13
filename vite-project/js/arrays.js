@@ -89,6 +89,13 @@ const food = [
     vegetarian: true,
     img: "https://64.media.tumblr.com/82c31855f8d0811a929c95dd8df5e7b5/tumblr_n2um3zhIy31t2rr2bo1_1280.png",
   },
+
+  {
+    name: "Udon",
+    price: 10,
+    vegetarian: false,
+    img: "https://pm1.narvii.com/6271/823217169d25e7552dc64585fb35616ddbf00468_hq.jpg",
+  },
 ];
 
 export default food;
