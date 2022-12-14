@@ -6,7 +6,19 @@ const DOMSelectors = {
 };
 
 food.forEach((element) => {
-  cards.insertAdjacentHTML;
+  DOMSelectors.cards.insertAdjacentHTML(
+    "beforeend",
+    `
+  <div class="card">
+    <h2>${element.name}</h2>
+    <img src="${element.img}">
+    <div class="card-details">
+      <h3>${element.price}</h3>
+      <h4>${element.vegetarian}</h4>
+    </div>
+  </div>
+  `
+  );
 });
 
 //inside .forEarch do cards.insertAdjacentHTML to create every card

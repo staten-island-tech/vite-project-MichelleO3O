@@ -10,7 +10,7 @@ const food = [
     name: "Choufarci",
     price: 25,
     vegetarian: false,
-    img: "https://static.wikia.nocookie.net/shokugekinosoma/images/0/0d/Chou_Farci_%28anime%29.png/revision/latest?cb=20150612205327",
+    img: "https://3.bp.blogspot.com/-iJEghxjTeXE/WX3n0NHQUwI/AAAAAAAAEb4/Q8OphM0pyUc6QuYLfL2sncw3cqXXH7P8gCPcBGAYYCw/s1600/choufarci_2.jpg",
   },
 
   {
