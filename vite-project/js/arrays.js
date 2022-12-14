@@ -96,6 +96,13 @@ const food = [
     vegetarian: false,
     img: "https://pm1.narvii.com/6271/823217169d25e7552dc64585fb35616ddbf00468_hq.jpg",
   },
+
+  {
+    name: "Sushi",
+    price: 45,
+    vegetarian: false,
+    img: "https://freeaddon.com/wp-content/uploads/2018/07/japanese-food-in-anime-0.jpg",
+  },
 ];
 
 export default food;
