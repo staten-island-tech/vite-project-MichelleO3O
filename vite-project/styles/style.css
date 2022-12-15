@@ -8,14 +8,15 @@
   padding: 40px;
   margin-top: 0px;
   text-align: center;
+  background-color: rgb(255, 238, 112);
 }
 
 body {
-  background-color: rgb(247, 247, 178);
+  background-color: rgb(255, 255, 183);
 }
 
 .card {
-  background-color: rgb(255, 210, 128);
+  background-color: rgb(255, 238, 112);
   margin-top: 15px;
   margin: 20px;
   width: 25%;
@@ -24,15 +25,20 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
 }
 
 img {
   width: 20vw;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
 }
 
 .card-details {
-  display: flex;
-  flex-direction: column;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
 }
 
 #allCards {
@@ -40,4 +46,8 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+button {
+  border-radius: 10px;
 }
