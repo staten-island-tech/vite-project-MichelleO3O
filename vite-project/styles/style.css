@@ -9,21 +9,21 @@
   --yellow: rgb(255, 238, 112);
 
   /*Typography*/
-  --h1: 7.594rem
-  --h2: 5.063rem
-  --h3: 3.375rem
-  --h4: 2.25rem
-  --h5: 1.5rem
+  --h1: 3.052rem;
+  --h2: 1.953rem;
+  --h3: 1.25rem;
+  --h4: 0.8rem;
+  --h5: 0.512rem;
 }
 
-h1{
+h1 {
   font-size: var(--h1);
 }
 h2 {
   font-size: var(--h2);
 }
 h3 {
-font-size: var(--h3);
+  font-size: var(--h3);
 }
 h4 {
   font-size: var(--h4);
@@ -40,6 +40,7 @@ h5 {
 }
 
 .banner {
+  font-size: var(--h1);
   padding: 40px;
   margin-top: 0px;
   text-align: center;
@@ -55,16 +56,18 @@ body {
   margin-top: 15px;
   margin: 20px;
   width: 25%;
-  height: 20vw;
+  height: 25vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
+  padding-bottom: ;
 }
 
 img {
   width: 20vw;
+  height: 50%;
   justify-content: center;
   border-radius: 15px;
 }
@@ -73,6 +76,10 @@ img {
   font-size: 18px;
   align-items: center;
   justify-content: center;
+}
+
+.card-title {
+  width: 100%;
 }
 
 #allCards {
@@ -84,4 +91,8 @@ img {
 
 button {
   border-radius: 10px;
+}
+
+.vegetarian {
+  margin-top: -20px;
 }

@@ -10,11 +10,13 @@ food.forEach((element) => {
     "beforeend",
     `
   <div class="card">
-    <h2>${element.name}</h2>
+    <h2 class="card-title">${element.name}</h2>
     <img src="${element.img}">
     <div class="card-details">
-      <h3>${element.price}</h3>
-      <h4>${element.vegetarian}</h4>
+      <h3>$${element.price}</h3>
+      <h4 class="vegetarian">Vegetarian: ${
+        element.vegetarian === true ? "Yes" : "No"
+      }</h4>
     </div>
   </div>
   `
