@@ -4,19 +4,54 @@
   font-family: "Jua", sans-serif;
 }
 
+:root {
+  --light-yellow: rgb(255, 255, 183);
+  --yellow: rgb(255, 238, 112);
+
+  /*Typography*/
+  --h1: 7.594rem
+  --h2: 5.063rem
+  --h3: 3.375rem
+  --h4: 2.25rem
+  --h5: 1.5rem
+}
+
+h1{
+  font-size: var(--h1);
+}
+h2 {
+  font-size: var(--h2);
+}
+h3 {
+font-size: var(--h3);
+}
+h4 {
+  font-size: var(--h4);
+}
+h5 {
+  font-size: var(--h5);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+
 .banner {
   padding: 40px;
   margin-top: 0px;
   text-align: center;
-  background-color: rgb(255, 238, 112);
+  background-color: var(--yellow);
 }
 
 body {
-  background-color: rgb(255, 255, 183);
+  background-color: var(--light-yellow);
 }
 
 .card {
-  background-color: rgb(255, 238, 112);
+  background-color: var(--yellow);
   margin-top: 15px;
   margin: 20px;
   width: 25%;
