@@ -23,5 +23,17 @@ food.forEach((element) => {
   );
 });
 
+document.querySelector(".btn").addEventListener("click", function () {
+  if (document.body.classList.contains("yellow")) {
+    document.body.classList.add("purple");
+    document.body.classList.remove("yellow");
+  } else {
+    document.body.classList.add("yellow");
+    document.body.classList.remove("purple");
+  }
+});
+
+document.querySelector(".veg-btn").addEventListener("click", function () {});
+
 //inside .forEarch do cards.insertAdjacentHTML to create every card
 //
