@@ -15,7 +15,7 @@ food.forEach((element) => {
     <div class="card-details">
       <h3>$${element.price}</h3>
       <h4 class="vegetarian">Vegetarian: ${
-        element.vegetarian === true ? "Yes" : "No"
+        element.vegetarian ? "Yes" : "No"
       }</h4>
     </div>
   </div>
