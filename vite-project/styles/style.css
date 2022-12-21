@@ -44,7 +44,9 @@ h4,
 h5 {
   text-align: center;
 }
-
+button {
+  cursor: pointer;
+}
 .yellow {
   --primary: var(--light-yellow);
   --secondary: var(--yellow);
