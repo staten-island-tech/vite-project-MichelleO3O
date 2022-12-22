@@ -7,8 +7,8 @@
 :root {
   --light-yellow: rgb(255, 255, 183);
   --yellow: rgb(255, 238, 112);
-  --light-purple: rgb(231, 198, 255);
-  --purple: rgb(200, 182, 255);
+  --light-pink: rgb(255, 204, 213);
+  --pink: rgb(255, 179, 193);
 
   /*Intentions*/
   --primary: var(--light-yellow);
@@ -52,9 +52,9 @@ button {
   --secondary: var(--yellow);
 }
 
-.purple {
-  --primary: var(--light-purple);
-  --secondary: var(--purple);
+.pink {
+  --primary: var(--light-pink);
+  --secondary: var(--pink);
 }
 
 .banner {
